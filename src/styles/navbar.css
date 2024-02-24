@@ -1,0 +1,12 @@
+.logo-width {
+    width: 60%;
+}
+
+@media screen and (max-width: 991px) {
+    .logo-width {
+        width: 80%
+    }
+    .responsive-nav-item {
+        margin-left: 60px;
+    }
+  }
