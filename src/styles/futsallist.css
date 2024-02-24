@@ -1,0 +1,99 @@
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.view-all-btn {
+    background-color: red;
+    color: #ffff;
+    border: none;
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+}
+.view-all-btn:hover {
+    background-color: #ffff;
+    color: red;
+    border: 1px solid red;
+    transition: 0.3s ease-in-out;
+}
+.card {
+    width: fit-content;
+    margin: 20px;
+}
+.booking-card-img{
+    width: 270px;
+    height: 200px;
+}
+.card-book-btn {
+    width: 130px;
+    height: 35px;
+    border: none;
+    background-color: red;
+    color: #ffff;
+    border-radius: 5px;
+    margin: auto;
+}
+.card-book-btn:hover {
+    background-color: #ffff;
+    color: red;
+    border: 1px solid red;
+    transition: 0.3s ease-in-out;
+}
+.futsal-detail-img {
+    width: 1000px;
+    height: 400px;
+    border-radius: 10px;
+}
+.futsal-detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.full-wrapper {
+    width: 1000px;
+    margin: auto;
+}
+.nav-tabs .nav-item .active {
+    border: none;
+    border-bottom: 3px solid red;
+    transition: 0.3s ease-in-out;
+    color: red;
+}
+.nav-tabs .nav-item .nav-link:hover {
+    border: none;
+    border-bottom: 3px solid red;
+    transition: 0.3s ease-in-out;
+    color: red;
+}
+.nav-tabs {
+    --bs-nav-tabs-border-width: 0px;
+}
+
+@media screen and (max-width: 1016px) {
+    .full-wrapper {
+        width: 500px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 540px) {
+    .full-wrapper {
+        width: 300px;
+        margin: auto;
+    }
+    .futsal-title {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .futsal-detail-img {
+        width: 500px;
+        height: 300px;
+    }
+  }
+  @media screen and (max-width: 545px) {
+    .futsal-detail-img {
+        width: 300px;
+        height: 200px;
+    }
+  }
